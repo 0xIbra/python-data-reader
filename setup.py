@@ -19,7 +19,7 @@ setuptools.setup(
     packages=[
         'data_reader'
     ],
-    install_requires=['pandas', 'imperium', 'ijson'],
+    install_requires=['ijson'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',

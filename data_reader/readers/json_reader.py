@@ -9,8 +9,8 @@ class JSONReader:
         self.__arguments = arguments
 
         self.__item_node = 'item'
-        if 'item_node' in arguments:
-            self.__item_node = arguments['item_node']
+        if 'node_path' in arguments:
+            self.__item_node = arguments['node_path']
 
     def iterate(self):
         """ Iterates over JSON file stream. """
