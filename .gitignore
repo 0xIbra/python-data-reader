@@ -1,0 +1,4 @@
+.mypy*
+data/
+__pycache__/
+*test.py
