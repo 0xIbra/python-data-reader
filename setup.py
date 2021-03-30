@@ -22,7 +22,7 @@ setuptools.setup(
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
-        'Intended Audience :: Developers'
+        'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]
 )
