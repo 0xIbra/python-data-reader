@@ -1,5 +1,4 @@
-import setuptoolsSo i had no choice, this package is
-
+import setuptools
 
 
 long_desc = ''
