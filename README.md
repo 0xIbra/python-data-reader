@@ -5,7 +5,7 @@ Data Reader
 Why not use the already existing libs you ask ?  
 Well, for me, it was crucial to have a small package size that can be deployed to a **Serverless** environment as this was the main goal.  
 
-This package has only one dependency, and that is `ijson` which is itself small.
+This package has only one dependency, and that is `ijson` which itself is small.
 
 Installation
 ------------
