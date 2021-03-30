@@ -16,13 +16,13 @@ setuptools.setup(
     long_description=long_desc,
     long_description_content_type='text/markdown',
     url='https://github.com/polkovnik-z/data-reader',
-    packages=[
-        'data_reader'
-    ],
+    license='MIT',
+    packages=setuptools.find_packages(),
     install_requires=['ijson'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
         'Intended Audience :: Developers'
+        'Topic :: Software Development :: Libraries :: Python Modules'
     ]
 )
