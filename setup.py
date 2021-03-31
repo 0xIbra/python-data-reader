@@ -12,7 +12,7 @@ setuptools.setup(
     author_email='ibragim.ai95@gmail.com',
     maintainer='Ibragim Abubakarov',
     maintainer_email='ibragim.ai95@gmail.com',
-    description='Python package that allows easy importation of data from large files like CSV, JSON and XML.',
+    description='Lightweight Python package that can lazily read large data files.',
     long_description=long_desc,
     long_description_content_type='text/markdown',
     url='https://github.com/polkovnik-z/data-reader',
