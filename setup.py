@@ -7,7 +7,7 @@ with open('README.md', 'r') as f:
 
 setuptools.setup(
     name='data-reader',
-    version='0.0.2',
+    version='0.0.3',
     author='Ibragim Abubakarov',
     author_email='ibragim.ai95@gmail.com',
     maintainer='Ibragim Abubakarov',
@@ -15,7 +15,7 @@ setuptools.setup(
     description='Lightweight Python package that can lazily read large data files.',
     long_description=long_desc,
     long_description_content_type='text/markdown',
-    url='https://github.com/polkovnik-z/data-reader',
+    url='https://github.com/polkovnik-z/python-data-reader',
     license='MIT',
     packages=setuptools.find_packages(),
     install_requires=['ijson'],

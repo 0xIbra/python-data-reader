@@ -1,4 +1,4 @@
-Data Reader
+[Data Reader](https://github.com/polkovnik-z/python-data-reader/blob/master/README.md)
 ===========
 > Python package that **lazily** reads data from large **JSON**, **XML** and **CSV** files.
 
@@ -15,8 +15,8 @@ pip install data-reader
 
 API Reference
 -------------
- * [Mapper](docs/mapper.md)
+ * [Mapper](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/mapper.md)
  * Readers
-   * [CSVReader - `data_reader.readers.csv_reader`](docs/csv-reader.md)
-   * [JSONReader - `data_reader.readers.json_reader`](docs/json-reader.md)
-   * [XMLReader - `data_reader.readers.xml_reader`](docs/xml-reader.md)
+   * [CSVReader - `data_reader.readers.csv_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/csv-reader.md)
+   * [JSONReader - `data_reader.readers.json_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/json-reader.md)
+   * [XMLReader - `data_reader.readers.xml_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/xm-reader.md)
