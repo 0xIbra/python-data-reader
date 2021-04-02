@@ -15,6 +15,8 @@ pip install data-reader
 
 API Reference
 -------------
- * [CSVReader - `data_reader.readers.csv_reader`](docs/csv-reader.md)
- * [JSONReader - `data_reader.readers.json_reader`](docs/json-reader.md)
- * [XMLReader - `data_reader.readers.xml_reader`](docs/xml-reader.md)
+ * [Mapper](docs/mapper.md)
+ * Readers
+   * [CSVReader - `data_reader.readers.csv_reader`](docs/csv-reader.md)
+   * [JSONReader - `data_reader.readers.json_reader`](docs/json-reader.md)
+   * [XMLReader - `data_reader.readers.xml_reader`](docs/xml-reader.md)
