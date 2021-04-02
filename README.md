@@ -15,7 +15,7 @@ pip install data-reader
 
 API Reference
 -------------
- * [Mapper](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/mapper.md)
+ * [Mapper - `data_reader.mapper`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/mapper.md)
  * Readers
    * [CSVReader - `data_reader.readers.csv_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/csv-reader.md)
    * [JSONReader - `data_reader.readers.json_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/json-reader.md)

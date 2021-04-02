@@ -8,18 +8,11 @@
 
 #### Methods
 
-#### __init__(mapping, ondata=None, onfinish=None)
+#### __init__(mapping)
 Mapper constructor.
 
 ###### Parameters
  - `mapping` : string - **required**
- - `ondata`: callable  
-    This callback function will be called on each data key retrieval.  
-    This is useful when you want to change, alter or transform retrieved data.
-
- - `onfinish`: callable  
-    This callback is called at the end of the process, when all of the keys from the provided `mapping` are retrieved.  
-    This is useful to append more data, or perform other actions.
 
 
 #### transform(data) : dict
