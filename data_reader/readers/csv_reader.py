@@ -47,6 +47,8 @@ class CSVReader:
                     entry = entry[1:]
                     entry = entry[:-1]
                     formatted.append(entry)
+                else:
+                    formatted.append(entry)
 
         del split
 

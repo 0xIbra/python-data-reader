@@ -7,7 +7,7 @@ with open('README.md', 'r') as f:
 
 setuptools.setup(
     name='data-reader',
-    version='0.0.4',
+    version='0.0.5',
     author='Ibragim Abubakarov',
     author_email='ibragim.ai95@gmail.com',
     maintainer='Ibragim Abubakarov',
