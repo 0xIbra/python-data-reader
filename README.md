@@ -19,4 +19,4 @@ API Reference
  * Readers
    * [CSVReader - `data_reader.readers.csv_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/csv-reader.md)
    * [JSONReader - `data_reader.readers.json_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/json-reader.md)
-   * [XMLReader - `data_reader.readers.xml_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/xm-reader.md)
+   * [XMLReader - `data_reader.readers.xml_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/xml-reader.md)
