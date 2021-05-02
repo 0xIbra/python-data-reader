@@ -46,6 +46,11 @@ class XMLReader:
                     attrs = None
                 normalized[sub.tag] = {'@attributes': attrs, 'value': sub.text}
 
+        attrs = element.attrib
+        if attrs == {}:
+            attrs = None
+        normalized['@attributes'] = attrs
+
         return normalized
 
     @staticmethod
