@@ -29,7 +29,7 @@ class XMLReader:
     @staticmethod
     def normalize_element(element: Element, normalized):
         for sub in element:
-            is_object = sub.text is None and len(sub) > 0
+            is_object = len(sub) > 0
             if is_object:
                 if XMLReader.check_if_element_array(sub):
                     normalized = XMLReader.normalize_array_element(sub, normalized)
@@ -53,7 +53,7 @@ class XMLReader:
         array_tag = element.tag
         array_res = []
         for item in element:
-            is_object = item.text is None and len(item) > 0
+            is_object = len(item) > 0
             if is_object:
                 normalized_item = XMLReader.normalize_element(item, {})
             else:
